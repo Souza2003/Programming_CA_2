@@ -13,13 +13,13 @@
 
 3. **Run Backend Server:**
 ```bash
-   python server_and_backend/app_backend.py
+   python app_backend.py
 ```
-   Server will run on: http://localhost:5003
+   Server will run on: http://localhost:5003     ##port 5000 or port 1234 can be used as well
 
 4. **Access Web Interfaces:**
-   - Admin Dashboard: Open `client_and_frontend/admin_dashboard.html` in browser
-   - Driver Dashboard: Open `client_and_frontend/driver_dashboard.html` in browser
+   - Admin Dashboard: Open `admin_dashboard_frontend.html` in browser
+   - Driver Dashboard: Open `driver_dashboard_frontend.html` in browser
 
 ## Testing
 
@@ -29,8 +29,8 @@ python tests/test_suite.py
 ```
 
 ## Project Structure
-- `backend/` - Server-side code
-- `client_and_frontend/` - Desktop/console clients & Web interfaces 
+- `server and backend` - Server-side code
+- `client and frontend` - Desktop/console clients & Web interfaces 
 - `database/` - Database setup
 - `models/` - Data models
 - `services/` - Business logic
